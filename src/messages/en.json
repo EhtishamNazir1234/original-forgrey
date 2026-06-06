@@ -1,0 +1,27 @@
+{
+  "common": {
+    "appName": "Startup Kit",
+    "loading": "Loading…",
+    "retry": "Try again",
+    "signIn": "Sign in",
+    "signOut": "Sign out",
+    "lightMode": "Light",
+    "darkMode": "Dark",
+    "systemMode": "System"
+  },
+  "home": {
+    "title": "Reusable Next.js Startup Kit",
+    "subtitle": "Centralized config, theming, i18n, state, and modular API services — ready to clone.",
+    "cta": "Go to dashboard"
+  },
+  "dashboard": {
+    "title": "Dashboard",
+    "welcome": "Welcome back, {name}",
+    "overviewTitle": "Overview"
+  },
+  "errors": {
+    "generic": "Something went wrong.",
+    "notFound": "Page not found.",
+    "notFoundDescription": "The page you’re looking for doesn’t exist or was moved."
+  }
+}
