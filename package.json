@@ -1,5 +1,5 @@
 {
-  "name": "app",
+  "name": "original-forgrey",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -10,6 +10,7 @@
     "format": "biome format --write"
   },
   "dependencies": {
+    "@supabase/supabase-js": "^2.110.1",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
     "lucide-react": "^1.17.0",
