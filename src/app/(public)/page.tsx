@@ -1,19 +1,21 @@
-import Link from "next/link";
-import { getTranslations } from "next-intl/server";
-import { Button } from "@/components/ui/Button";
-import { routes } from "@/lib/routes/routes";
+import { Hero } from "@/components/home/Hero";
+import { Features } from "@/components/home/Features";
+import { HowItWorks } from "@/components/home/HowItWorks";
+import { StyleShowcase } from "@/components/home/StyleShowcase";
+import { Pricing } from "@/components/home/Pricing";
+import { FAQ } from "@/components/home/FAQ";
+import { CTA } from "@/components/home/CTA";
 
-export default async function HomePage() {
-  const t = await getTranslations("home");
+export default function HomePage() {
   return (
-    <section className="mx-auto flex max-w-2xl flex-1 flex-col items-center justify-center gap-6 px-6 text-center animate-slide-up">
-      <h1 className="text-4xl font-bold tracking-tight sm:text-5xl">
-        {t("title")}
-      </h1>
-      <p className="text-lg text-muted-foreground">{t("subtitle")}</p>
-      <Link href={routes.private.user.dashboard}>
-        <Button size="lg">{t("cta")}</Button>
-      </Link>
-    </section>
+    <>
+      <Hero />
+      <Features />
+      <HowItWorks />
+      <StyleShowcase />
+      <Pricing />
+      <FAQ />
+      <CTA />
+    </>
   );
 }

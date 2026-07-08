@@ -1,6 +1,6 @@
 {
   "common": {
-    "appName": "اسٹارٹ اپ کٹ",
+    "appName": "original-forgrey",
     "loading": "لوڈ ہو رہا ہے…",
     "retry": "دوبارہ کوشش کریں",
     "signIn": "سائن ان",
@@ -10,8 +10,8 @@
     "systemMode": "سسٹم"
   },
   "home": {
-    "title": "دوبارہ قابلِ استعمال Next.js اسٹارٹ اپ کٹ",
-    "subtitle": "مرکزی کنفیگ، تھیمنگ، لوکلائزیشن، اسٹیٹ اور ماڈیولر API سروسز۔",
+    "title": "original-forgrey",
+    "subtitle": "اپنی تصاویر کو اصل آرٹ میں تبدیل کریں",
     "cta": "ڈیش بورڈ پر جائیں"
   },
   "dashboard": {
