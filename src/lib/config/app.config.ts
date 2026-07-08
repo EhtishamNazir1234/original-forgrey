@@ -5,8 +5,8 @@ import { env } from "./env";
  * cloned from this kit.
  */
 export const appConfig = {
-  name: "Startup Kit",
-  description: "Reusable Next.js startup kit",
+  name: "original-forgrey",
+  description: "original-forgrey Creator Studio",
   url: env.NEXT_PUBLIC_APP_URL,
 
   // Localization

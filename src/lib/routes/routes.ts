@@ -13,6 +13,7 @@ export const routes = {
     home: "/",
     login: "/login",
     register: "/register",
+    signup: "/signup",
   },
   private: {
     admin: {
@@ -33,6 +34,7 @@ export const publicPaths: string[] = [
   routes.public.home,
   routes.public.login,
   routes.public.register,
+  routes.public.signup,
 ];
 
 export function isPublicPath(pathname: string): boolean {

@@ -1,6 +1,6 @@
 {
   "common": {
-    "appName": "Startup Kit",
+    "appName": "original-forgrey",
     "loading": "Loading…",
     "retry": "Try again",
     "signIn": "Sign in",
@@ -10,8 +10,8 @@
     "systemMode": "System"
   },
   "home": {
-    "title": "Reusable Next.js Startup Kit",
-    "subtitle": "Centralized config, theming, i18n, state, and modular API services — ready to clone.",
+    "title": "original-forgrey",
+    "subtitle": "Turn Your Photos Into Original Art",
     "cta": "Go to dashboard"
   },
   "dashboard": {
