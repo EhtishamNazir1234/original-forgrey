@@ -1,4 +1,4 @@
-# Reusable Next.js Startup Kit
+# original-forgrey Creator Studio
 
 Next.js 16 (App Router) · React 19 + React Compiler · Tailwind v4 · TypeScript (strict) · Biome.
 A clone-and-go starter with centralized config, theming, i18n, state, and modular API services.

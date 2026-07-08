@@ -13,6 +13,13 @@ const clientSchema = z.object({
     .string()
     .url()
     .default("http://localhost:3000/api"),
+  NEXT_PUBLIC_SUPABASE_URL: z
+    .string()
+    .url()
+    .default("https://placeholder.supabase.co"),
+  NEXT_PUBLIC_SUPABASE_ANON_KEY: z
+    .string()
+    .default("placeholder-key"),
 });
 
 const serverSchema = z.object({
@@ -31,6 +38,8 @@ const serverSchema = z.object({
 const clientEnv = clientSchema.safeParse({
   NEXT_PUBLIC_APP_URL: process.env.NEXT_PUBLIC_APP_URL,
   NEXT_PUBLIC_API_BASE_URL: process.env.NEXT_PUBLIC_API_BASE_URL,
+  NEXT_PUBLIC_SUPABASE_URL: process.env.NEXT_PUBLIC_SUPABASE_URL,
+  NEXT_PUBLIC_SUPABASE_ANON_KEY: process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY,
 });
 
 if (!clientEnv.success) {
